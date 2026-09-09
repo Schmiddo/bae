@@ -1,3 +1,11 @@
+[project]
+name = "bae"
+version = "0.2.5"
+description = "Bundle adjustment in eager mode"
+readme = "README.md"
+requires-python = ">=3.12"
+
 [build-system]
 requires = ["setuptools", "wheel", "torch", "warp-lang>=1.13.0"]
 build-backend = "setuptools.build_meta"
+
